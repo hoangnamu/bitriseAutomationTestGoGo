@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="login_test">
+        <classes>
+            <class name="Test.loginTest">
+                <methods>
+                    <include name="LoginTestFunction">
+                        <parameter name="testName" value="loginTest"></parameter>
+                        <parameter name="package" value="test"></parameter>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
